@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-template-rows: repeat(4, 3fr);
+    
+    row-gap: 15px;
+    column-gap: 30px;
+   }
+   
+   .item {
+    background-color: #D9E8FB;
+    padding: 20px;
+   }
+
+   .park {
+    background-color: green;
+   }
+   
+   .bank {
+    background-color: deeppink;
+   }
+
+   .grocery {
+    background-color: darkkhaki;
+   }
+
+   .cafe {
+    background-color: rgb(96, 78, 62);
+   }
